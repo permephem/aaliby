@@ -5,7 +5,7 @@ export function EmergencyCTA() {
   return (
     <section className="relative overflow-hidden py-20">
       <div className="absolute inset-0 bg-gradient-to-r from-accent/20 via-accent/10 to-transparent" />
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="relative w-full px-4 sm:px-6">
         <div className="flex flex-col items-center rounded-2xl border border-accent/30 bg-surface px-8 py-14 text-center sm:px-16">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             Emergency Service
