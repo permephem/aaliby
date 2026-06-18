@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const isGithubPages = process.env.GITHUB_PAGES === "true";
+const githubPagesBasePath = "/aaliby";
 
 const nextConfig: NextConfig = {
   devIndicators: false,
@@ -8,8 +9,11 @@ const nextConfig: NextConfig = {
     ? {
         output: "export",
         images: { unoptimized: true },
-        basePath: "/aaliby",
-        assetPrefix: "/aaliby/",
+        basePath: githubPagesBasePath,
+        assetPrefix: `${githubPagesBasePath}/`,
+        env: {
+          NEXT_PUBLIC_BASE_PATH: githubPagesBasePath,
+        },
       }
     : {}),
 };

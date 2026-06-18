@@ -1,3 +1,5 @@
+import { publicPath } from "@/lib/paths";
+
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ??
   "https://www.aalibyautorepairandtowing.com";
@@ -39,7 +41,7 @@ export const BUSINESS = {
     repair: "Repairs on towed vehicles: Mon–Fri, 8 AM – 5 PM",
     repairSchedule: "Mon–Fri, 8 AM – 5 PM",
   },
-  heroImage: "/gallery/eb27c8b1898949bd9dd3be7e66b84e83.jpg",
+  heroImage: publicPath("/gallery/eb27c8b1898949bd9dd3be7e66b84e83.jpg"),
 } as const;
 
 export const NAV_LINKS = [
@@ -201,39 +203,39 @@ export const FAQ_ITEMS = [
 
 export const GALLERY_ITEMS = [
   {
-    src: "/gallery/bbf44bd1ff994b1e81d810e796e6d504.jpg",
+    src: publicPath("/gallery/bbf44bd1ff994b1e81d810e796e6d504.jpg"),
     alt: "Aaliby flatbed tow truck transporting a custom pickup in Billings, MT",
   },
   {
-    src: "/gallery/eb27c8b1898949bd9dd3be7e66b84e83.jpg",
+    src: publicPath("/gallery/eb27c8b1898949bd9dd3be7e66b84e83.jpg"),
     alt: "Aaliby Auto Repair and Towing flatbed truck with 24 hour towing in Billings",
   },
   {
-    src: "/gallery/a2ff3bc227d44eb6b067381731cfe67e.jpg",
+    src: publicPath("/gallery/a2ff3bc227d44eb6b067381731cfe67e.jpg"),
     alt: "Accident recovery and cleanup by Aaliby towing in Billings, Montana",
   },
   {
-    src: "/gallery/2d4fdbe5086f4c4f817e77fee078772e.jpg",
+    src: publicPath("/gallery/2d4fdbe5086f4c4f817e77fee078772e.jpg"),
     alt: "Securing a damaged vehicle on the Aaliby flatbed",
   },
   {
-    src: "/gallery/1d4002dce296432e96f1917966860f26.jpg",
+    src: publicPath("/gallery/1d4002dce296432e96f1917966860f26.jpg"),
     alt: "Winter towing a classic car through the snow in Billings, MT",
   },
   {
-    src: "/gallery/abd3462fe09445a09a540769b7ab7788.jpg",
+    src: publicPath("/gallery/abd3462fe09445a09a540769b7ab7788.jpg"),
     alt: "Towing a damaged silver car on Aaliby flatbed",
   },
   {
-    src: "/gallery/1bef593102384dc6aa0e529f4c51adfe.jpg",
+    src: publicPath("/gallery/1bef593102384dc6aa0e529f4c51adfe.jpg"),
     alt: "Loading a wrecked vehicle onto the Aaliby tow truck",
   },
   {
-    src: "/gallery/a9a98e87bc25481aadfaac152994bf2a.jpg",
+    src: publicPath("/gallery/a9a98e87bc25481aadfaac152994bf2a.jpg"),
     alt: "Motorcycle towing in snowy conditions in Yellowstone County",
   },
   {
-    src: "/gallery/b9085b9dbb644adf8acb84cd6ab42adb.jpg",
+    src: publicPath("/gallery/b9085b9dbb644adf8acb84cd6ab42adb.jpg"),
     alt: "Rollover truck recovery in the snow near Billings, Montana",
   },
 ] as const;
