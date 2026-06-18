@@ -4,7 +4,7 @@ import { GALLERY_ITEMS } from "@/lib/constants";
 export function Gallery() {
   return (
     <section id="gallery" className="py-24">
-      <div className="w-full px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             Gallery

@@ -3,7 +3,7 @@ import { OUR_PROMISE } from "@/lib/constants";
 export function OurPromise() {
   return (
     <section id="our-promise" className="py-24">
-      <div className="w-full px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             Our Promise

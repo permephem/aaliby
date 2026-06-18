@@ -4,7 +4,7 @@ import { PhoneIcon } from "@/components/icons/PhoneIcon";
 export function TowRepairBanner() {
   return (
     <section className="border-y border-accent/20 bg-gradient-to-r from-accent/10 via-background to-accent/5 py-16">
-      <div className="w-full px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center gap-8 text-center lg:flex-row lg:text-left">
           <div className="flex-1">
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">

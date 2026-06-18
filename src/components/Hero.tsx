@@ -44,7 +44,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/70" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent" />
 
-      <div className="relative w-full px-4 pt-8 pb-16 sm:px-6 sm:pt-10">
+      <div className="relative mx-auto max-w-6xl px-4 pt-8 pb-16 sm:px-6 sm:pt-10">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto] lg:gap-16">
           <div className="max-w-3xl">
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent">

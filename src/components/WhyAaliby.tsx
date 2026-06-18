@@ -27,7 +27,7 @@ const ICONS: Record<string, ReactNode> = {
 export function WhyAaliby() {
   return (
     <section id="why-aaliby" className="bg-surface py-24">
-      <div className="w-full px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent">
             Why Aaliby

@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-background/80 backdrop-blur-md">
-      <div className="flex w-full items-center justify-between px-4 py-4 sm:px-6">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <a href="#home" className="group flex items-center gap-3">
           <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent text-lg font-bold text-accent-foreground">
             A

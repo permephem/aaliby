@@ -3,7 +3,7 @@ import { BUSINESS } from "@/lib/constants";
 export function About() {
   return (
     <section id="about" className="py-24">
-      <div className="w-full px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-accent">
